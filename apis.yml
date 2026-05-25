@@ -1,0 +1,88 @@
+aid: lovable-dev
+name: Lovable
+description: >-
+  Lovable is a Stockholm-based AI app builder ("vibe coding") platform that
+  turns natural-language prompts into full-stack web applications. Founded in
+  late 2023 by Anton Osika (CEO) and Fabian Hedin (CTO), Lovable grew out of
+  the founders' open-source GPT Engineer project (originally a CLI codegen
+  tool that crossed 50,000+ GitHub stars) and was relaunched as a commercial
+  product targeting non-technical builders, product managers, designers, and
+  founders. Users chat with Lovable's agent to scaffold React/Tailwind
+  front-ends backed by a managed Postgres ("Lovable Cloud") and authentication
+  layer; projects can sync to GitHub or GitLab, deploy to lovable.app
+  subdomains or custom domains, and integrate with Supabase, Stripe/Paddle,
+  Resend, Mailgun, AWS S3, BigQuery, and Snowflake. The platform's developer
+  surface is intentionally small — there is no traditional REST/SDK developer
+  API. Programmatic entry points are limited to the "Build with URL" pattern
+  (passing a prompt via querystring/hash to https://lovable.dev/?autosubmit=true)
+  and a hosted Model Context Protocol server at https://mcp.lovable.dev that
+  lets AI clients (Claude, Cursor, Claude Code) create projects, message the
+  building agent, inspect diffs, provision Postgres databases, and read
+  analytics on behalf of an authenticated Lovable account. Lovable raised a
+  $200M Series A (Accel) in July 2025 and a $330M Series B (CapitalG, Menlo
+  Anthology) in December 2025 at a $6.6B valuation, with reported ARR
+  growing from $100M (July 2025) to $400M+ (February 2026) and roughly
+  8 million users.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI
+  - Generative AI
+  - AI App Builder
+  - Vibe Coding
+  - Low Code
+  - No Code
+  - Text to App
+  - Application Development
+  - Web Development
+  - Frontend
+  - Full Stack
+  - Model Context Protocol
+  - MCP
+  - Stockholm
+  - Sweden
+url: https://raw.githubusercontent.com/api-evangelist/lovable-dev/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://lovable.dev
+  - type: Documentation
+    url: https://docs.lovable.dev
+  - type: Pricing
+    url: https://lovable.dev/pricing
+  - type: BuildWithURL
+    url: https://docs.lovable.dev/integrations/build-with-url
+  - type: MCPServer
+    url: https://mcp.lovable.dev
+  - type: MCPDocumentation
+    url: https://docs.lovable.dev/integrations/lovable-mcp-server
+  - type: Integrations
+    url: https://docs.lovable.dev/integrations
+  - type: GPTEngineerHistory
+    url: https://lovable.dev/gpt-engineer
+  - type: GitHubApp
+    url: https://github.com/apps/lovable-dev
+  - type: GitHubOrgUserProjects
+    url: https://github.com/GPT-Engineer-App
+  - type: GitHubOrgDev
+    url: https://github.com/GPT-Engineer-App-Dev
+  - type: GPTEngineerRepo
+    url: https://github.com/AntonOsika/gpt-engineer
+  - type: Discord
+    url: https://discord.gg/lovable-dev
+  - type: Twitter
+    url: https://twitter.com/lovable_dev
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/lovable-dev
+  - type: YouTube
+    url: https://www.youtube.com/@lovable-dev
+  - type: Reddit
+    url: https://www.reddit.com/r/lovable
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
