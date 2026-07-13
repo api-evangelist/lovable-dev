@@ -1,0 +1,21 @@
+{
+  "repo": "lovable-dev",
+  "feeds": [
+    {
+      "source": "https://lovable.dev/blog",
+      "feed_url": "https://lovable.dev/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
+      "source": "https://www.reddit.com/r/lovable",
+      "feed_url": "https://www.reddit.com/r/lovable",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 25
+}
